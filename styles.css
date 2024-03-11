@@ -1,0 +1,86 @@
+/* Reset default browser styles */
+body, h1,h2 p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation panel */
+#panel {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    height: auto;
+    font-size: 18px;
+}
+
+#panel a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    padding-left: 10%;
+}
+
+#panel a:hover {
+    color: gray;    
+}
+
+/* main content */
+h1,h2 {
+    text-align: center;
+    margin: 20px 0;
+    padding: 30px;
+}
+
+#about, #suggestions, #social {
+    margin: 20px auto;
+    width: 80%;
+}
+
+#about, #suggestions p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* suggestions section */
+#suggestions ul{
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+#more p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#more li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* social media section */
+#social {
+    text-align: center;
+}
+
+#social a {
+    margin: 10px;
+}
+
+#social img {
+    width: 60px; 
+    height: 60px; 
+}
+
+/*Journey page */
+
+#img {
+    text-align: center;
+}
+
+#img img {
+    max-width: 50%; 
+    height: 50%; 
+    padding: 10px;
+}
