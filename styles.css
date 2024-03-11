@@ -26,12 +26,15 @@ body, h1,h2 p, ul, li {
 
 /* main content */
 h1,h2 {
+    background-color: #333;
     text-align: center;
     margin: 20px 0;
-    padding: 30px;
+    padding: 20px 0;
+    color: #f2f2f2;
+    margin: 20px auto;
 }
 
-#about, #suggestions, #social {
+h1, h2, h3, #about, #suggestions, #social {
     margin: 20px auto;
     width: 80%;
 }
@@ -44,7 +47,7 @@ h1,h2 {
 
 /* suggestions section */
 #suggestions ul{
-    list-style-type: square;
+
     margin-left: 20px;
 }
 
@@ -77,6 +80,10 @@ h1,h2 {
 
 #img {
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 #img img {
@@ -84,3 +91,8 @@ h1,h2 {
     height: 50%; 
     padding: 10px;
 }
+
+h3 {
+    font-size: 24px;
+}
+
